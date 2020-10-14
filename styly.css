@@ -1,0 +1,47 @@
+body {
+    background: #87CEEB;
+    margin: 30px;
+}
+
+header {
+    background: #007FFF;
+}
+
+main {
+    background: #FFFFFF;
+    height: 500px;
+}
+
+main article h1{
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    margin: 10px 0px;
+}
+
+.kategorie {
+    background: #004F8E;
+    float: left;
+    width: 10%;
+    height: 100%;
+}
+
+.logo {
+    height: 200px;
+    margin: 10px 20px;
+}
+
+.nadpisStranky{
+    height: 200px;
+    float: contour;
+}
+
+.kosik{
+    height: 50px;
+    float: right;
+}
