@@ -31,8 +31,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="CSS File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -63,6 +63,9 @@
       <workItem from="1602095415256" duration="1408000" />
       <workItem from="1602177754129" duration="1160000" />
       <workItem from="1602579077377" duration="11784000" />
+      <workItem from="1602658853793" duration="9985000" />
+      <workItem from="1602680298423" duration="35000" />
+      <workItem from="1602680651213" duration="848000" />
     </task>
     <servers />
   </component>
@@ -82,14 +85,26 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="740" y="274" key="FileChooserDialogImpl" timestamp="1602178309396">
+    <state x="92" y="92" width="1736" height="856" key="DiffContextDialog" timestamp="1602678562164">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1602178309396" />
+    <state x="92" y="92" width="1736" height="856" key="DiffContextDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1602678562164" />
+    <state x="740" y="274" key="FileChooserDialogImpl" timestamp="1602680331219">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1602680331219" />
     <state x="795" y="443" key="NewPhpFileDialog" timestamp="1602095860895">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="795" y="443" key="NewPhpFileDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1602095860895" />
+    <state x="92" y="92" width="1736" height="856" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog" timestamp="1602678562164">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="92" y="92" width="1736" height="856" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1602678562164" />
+    <state x="92" y="92" width="1736" height="856" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1602678250158">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="92" y="92" width="1736" height="856" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1602678250158" />
     <state x="777" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1602178179071">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
