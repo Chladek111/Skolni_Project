@@ -9,11 +9,15 @@ header {
 
 main {
     background: #FFFFFF;
-    height: 500px;
+    height: 920px;
 }
 
 main article h1{
     text-align: center;
+}
+
+nav{
+    min-width: 150px;
 }
 
 nav ul {
@@ -21,14 +25,28 @@ nav ul {
 }
 
 nav ul li {
-    margin: 10px 0px;
+    margin: 10px 10px;
+}
+
+nav ul li:hover{
+    background:	#808080;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+table {
+    width: 90%;
+    text-align: center;
 }
 
 .kategorie {
     background: #004F8E;
     float: left;
     width: 10%;
-    height: 100%;
+    height: 920px;
 }
 
 .logo {
@@ -38,10 +56,13 @@ nav ul li {
 
 .nadpisStranky{
     height: 200px;
-    float: contour;
 }
 
 .kosik{
     height: 50px;
     float: right;
+}
+
+.aktivni {
+    background: #ffbb00;
 }
