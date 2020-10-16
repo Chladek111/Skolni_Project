@@ -1,10 +1,12 @@
 body {
     background: #87CEEB;
-    margin: 30px;
+    margin: 2%;
 }
 
 header {
     background: #007FFF;
+    height: 5%;
+    width: 100%;
 }
 
 main {
@@ -25,11 +27,15 @@ nav ul {
 }
 
 nav ul li {
-    margin: 10px 10px;
+    display: inline;
+    vertical-align: middle;
+    text-align: center;
+    margin: 0px 5px;
+    line-height: 50px;
 }
 
 nav ul li:hover{
-    background:	#808080;
+    background:	#003785;
 }
 
 nav a {
@@ -38,31 +44,39 @@ nav a {
 }
 
 table {
-    width: 90%;
+    width: 100%;
     text-align: center;
 }
 
 .kategorie {
     background: #004F8E;
-    float: left;
-    width: 10%;
-    height: 920px;
+    float: center;
+    width: 100%;
+    min-height: 50px;
+    font-size: 130%;
+    vertical-align: middle;
+    height: 20%;
 }
 
 .logo {
-    height: 200px;
-    margin: 10px 20px;
+    height: 15%;
+    width: 15%;
+    margin: 5% 5%;
 }
 
 .nadpisStranky{
-    height: 200px;
+    height: 40%;
+    width: 40%;
+    margin: 3% -7%;
 }
 
 .kosik{
-    height: 50px;
+    height: 10%;
+    width: 10%;
+    margin: 2% 2%;
     float: right;
 }
 
 .aktivni {
-    background: #ffbb00;
+    background: #579ff7;
 }
