@@ -1,0 +1,1 @@
+Počítačový zdroj, výkon 1250 W, účinnost 94 % (80+Titanium), plně modulární. Podporuje SLI, CrossfireX. Rozhraní: 1 x 28 pin, 2 x 8 pin (CPU), 1 x CPU/RAM 4 pin, 10 x 6+2 pin, 16 x SATA, 8 x 4P molex, 2 x FDD.

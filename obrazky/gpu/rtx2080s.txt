@@ -1,0 +1,1 @@
+NVIDIA GeForce RTX - 2080 Super @ 1650MHz / Boost 1845MHz / 3072 shaderů / 8GB GDDR6 15500MHz 256bit / Architektura NVIDIA - Turing (12 nm) / DisplayPort, HDMI, USB-C / Délka 328mm / PCI-Express 3.0 x16 / TDP 250W (8+8 pin)

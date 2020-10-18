@@ -1,0 +1,1 @@
+Procesor 10. generace Comet Lake, socket LGA 1200, 10 fyzických jader (20 vláken), frekvence 3,7 GHz (až 5,3 GHz v Turbo režimu), vyrovnávací paměť 20 MB SmartCache, 14 nm výrobní proces, podpora pamětí DDR4 2933 MHz, PCI-Express 3.0, integrovaná grafika Intel UHD Graphics 630, TDP 125 W.

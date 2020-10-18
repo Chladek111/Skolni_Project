@@ -1,0 +1,1 @@
+Výkonný procesor 9. generace Coffee Lake Refresh, socket LGA 1151, 6 fyzických jader (6 vláken), frekvence 2,9 GHz (až 4,1 GHz v Turbo režimu), vyrovnávací paměť 9 MB SmartCache, 14 nm výrobní proces, podpora pamětí DDR4 2666 MHz, PCI-Express 3.0, TDP 65 W.

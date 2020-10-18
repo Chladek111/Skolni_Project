@@ -1,0 +1,1 @@
+SSD disk 2,5", SATA III, TLC (Triple-Level Cell), rychlost čtení 540MB/s, rychlost zápisu 500MB/s, životnost 80TBW

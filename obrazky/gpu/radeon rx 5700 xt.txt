@@ -1,0 +1,1 @@
+AMD Radeon RX - 5700 XT @ 1650MHz / Boost 1905MHz / 2560 shaderů / 8GB GDDR6 14000MHz 256bit / Architektura AMD - RDNA 1.0 (7 nm) / DisplayPort, HDMI / Délka 279,85mm / PCI-Express 4.0 x16 / TDP 225W (6+8 pin)

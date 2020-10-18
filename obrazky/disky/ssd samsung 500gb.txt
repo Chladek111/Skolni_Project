@@ -1,0 +1,1 @@
+SSD disk 2,5", SATA III, MLC (Multi-Level Cell), rychlost čtení 550MB/s, rychlost zápisu 520MB/s, životnost 300TBW

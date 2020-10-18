@@ -1,0 +1,1 @@
+SSD disk M.2 (PCIe 4.0 4x NVMe), TLC (Triple-Level Cell), rychlost čtení 5000MB/s, rychlost zápisu 4400MB/s, životnost 1800TBW

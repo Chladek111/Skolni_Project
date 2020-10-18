@@ -1,0 +1,1 @@
+Počítačový zdroj, výkon 650 wattů, standard ATX 12V v2.31, aktivní PFC, 120mm ventilátor s hydraulickým ložiskem, účinnost 85 procent průměrně při zatížení, MTBF (střední doba mezi poruchami) min. 100 000 hodin. Ochranné prvky: OPP/UVP/OVP/SCP/OCP/OTP. 

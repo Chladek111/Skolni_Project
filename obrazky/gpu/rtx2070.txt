@@ -1,0 +1,1 @@
+NVIDIA GeForce RTX - 2070 @ 1410MHz / Boost 1845MHz / 2304 shaderů / 8GB GDDR6 14000MHz 256bit / Architektura NVIDIA - Turing (12 nm) / DisplayPort, HDMI, USB-C / Délka 300mm / PCI-Express 3.0 x16

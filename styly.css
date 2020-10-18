@@ -5,20 +5,23 @@ body {
 
 header {
     background: #007FFF;
-    height: 5%;
     width: 100%;
 }
 
 main {
     background: #FFFFFF;
-    height: 920px;
+    height: 100%;
 }
 
 main article h1{
     text-align: center;
 }
 
-nav{
+main article table img {
+    width: 40%;
+}
+
+nav {
     min-width: 150px;
 }
 
@@ -50,7 +53,7 @@ table {
 
 .kategorie {
     background: #004F8E;
-    text-align: left;
+    text-align: center;
     width: 100%;
     min-height: 50px;
     font-size: 130%;
@@ -100,4 +103,10 @@ table {
 
 .aktivni {
     background: #579ff7;
+}
+
+.položka {
+    display: inline-block;
+    width: 70%;
+    text-overflow: ellipsis;
 }

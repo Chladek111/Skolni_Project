@@ -1,0 +1,1 @@
+AMD Radeon RX - 570 @ 1300MHz / Boost 1310MHz / 2048 shaderù / 4GB GDDR5 7000MHz 256bit / Architektura AMD - GCN 4.0 (14 nm) / DisplayPort, DVI, HDMI / Délka 240mm / PCI-Express 3.0 x16 / TDP 150W (6 pin)
