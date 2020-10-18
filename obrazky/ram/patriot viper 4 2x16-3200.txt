@@ -1,0 +1,1 @@
+Sada kvalitních paměťových modulů, typ DDR4, kapacita 2x 16 GB, frekvence 3200 MHz, časování CL16, napětí 1,35 V, podpora nejnovějších platforem Intel.

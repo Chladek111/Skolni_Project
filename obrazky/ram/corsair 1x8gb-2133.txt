@@ -1,0 +1,1 @@
+Kvalitní operační paměť typu DDR4, kapacita 8 GB, pracovní frekvence až 2133 MHz (odpovídá PC4-17000), časování CL15 (15-15-15-36), napětí 1.2V.

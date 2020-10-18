@@ -1,0 +1,1 @@
+NVIDIA GeForce RTX - 2080 Ti @ 1545MHz / Boost 1620MHz / 4352 shaderů / 11GB GDDR6 14000MHz 352bit / Architektura NVIDIA - Turing (12 nm) / DisplayPort, HDMI, USB-C / Délka 267,2mm / PCI-Express 3.0 x16 / TDP 250W (8+8 pin)

@@ -1,0 +1,1 @@
+NVIDIA GeForce RTX - 2070 Super @ 1605MHz / Boost 1785MHz / 2560 shaderů / 8GB GDDR6 14000MHz 256bit / Architektura NVIDIA - Turing (12 nm) / DisplayPort, HDMI / Délka 286mm / PCI-Express 3.0 x16 / TDP 215W (6+8 pin)

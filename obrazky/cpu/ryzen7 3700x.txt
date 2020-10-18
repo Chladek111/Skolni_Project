@@ -1,0 +1,1 @@
+Výkonný procesor 3. generace AMD Ryzen 7 (Matiss), socket AM4, 8 fyzických jader (16 vláken), frekvence 3,6 GHz (4,4 GHz boost), vyrovnávací paměť cache 32 MB (L3), 7 nm výrobní proces, TDP 65 W, chladič Wraith Prism RGB.

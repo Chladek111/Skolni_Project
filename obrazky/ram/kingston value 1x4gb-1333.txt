@@ -1,0 +1,1 @@
+Kvalitní paměťový modul standardu DDR3, kapacita 4GB, pracovní frekvence 1333 MHz (odpovídá PC10600), časování CL9, napětí 1.5 V.

@@ -1,0 +1,1 @@
+Výkonný procesor 3. generace AMD Ryzen 9 (Matiss), socket AM4, 16 fyzických jader (32 vláken), frekvence 3,5 GHz (4,7 GHz boost), vyrovnávací paměť cache 64 MB (L3), 7 nm výrobní proces, TDP 105 W, bez chladiče

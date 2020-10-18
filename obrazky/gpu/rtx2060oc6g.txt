@@ -1,0 +1,1 @@
+NVIDIA GeForce RTX - 2060 @ 1680MHz / Boost 1755MHz / 1920 shaderů / 6GB GDDR6 14000MHz 192bit / Architektura NVIDIA - Turing (12 nm) / DisplayPort, HDMI / Délka 225mm / PCI-Express 3.0 x16 / TDP 160W (8 pin)

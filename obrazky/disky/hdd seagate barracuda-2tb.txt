@@ -1,0 +1,1 @@
+Pevný disk 3,5", SATA III, maximální rychlost přenosu 220 MB/s, cache 256 MB, 7200 ot/min

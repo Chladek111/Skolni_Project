@@ -1,0 +1,1 @@
+Výkonný procesor 3. generace AMD Ryzen 5 (Matiss), socket AM4, 6 fyzických jader (12 vláken), frekvence 3,8 GHz (4,4 GHz boost), vyrovnávací paměť cache 32 MB (L3), 7 nm výrobní proces, TDP 95 W, chladič Wraith Spire.
