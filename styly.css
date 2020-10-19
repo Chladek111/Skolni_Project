@@ -13,11 +13,11 @@ main {
     height: 100%;
 }
 
-main .obsah h1 {
+main article h1,h2 {
     text-align: center;
 }
 
-main .obsah table img {
+main article table img {
     width: 40%;
 }
 
@@ -132,12 +132,24 @@ table {
 
 .radekKosik {
     width: 100%;
+    display: inline-block;
+}
+
+.obrazekKosik {
+    display: inherit;
 }
 
 .obrazekKosik img {
-    width: 20%;
+    margin: 0 0 0 2% ;
+    width: 18%;
 }
 
 .jmenoPoložkaKosik {
+    width: 50%;
+    display: inherit;
+}
 
+.cenaKosik {
+    width: 20%;
+    display: inherit;
 }
