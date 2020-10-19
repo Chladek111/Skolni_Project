@@ -80,27 +80,6 @@ table {
     float: right;
 }
 
-@media only screen and (max-width: 600px) {
-.logo {
-    height: 15%;
-    width: 15%;
-    margin: 5% 5%;
-}
-
-.nadpisStranky {
-    height: 40%;
-    width: 40%;
-    margin: 3% -7%;
-}
-
-.kosik {
-    height: 10%;
-    width: 10%;
-    margin: 2% 2%;
-    float: right;
-}
-}
-
 .aktivni {
     background: #579ff7;
 }
@@ -152,4 +131,25 @@ table {
 .cenaKosik {
     width: 20%;
     display: inherit;
+}
+
+@media only screen and (max-width: 600px) {
+    .logo {
+        height: 15%;
+        width: 15%;
+        margin: 5% 5%;
+    }
+
+    .nadpisStranky {
+        height: 40%;
+        width: 40%;
+        margin: 3% -7%;
+    }
+
+    .kosik {
+        height: 10%;
+        width: 10%;
+        margin: 2% 2%;
+        float: right;
+    }
 }
