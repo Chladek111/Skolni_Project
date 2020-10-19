@@ -13,11 +13,11 @@ main {
     height: 100%;
 }
 
-main article h1{
+main .obsah h1 {
     text-align: center;
 }
 
-main article table img {
+main .obsah table img {
     width: 40%;
 }
 
@@ -109,4 +109,35 @@ table {
     display: inline-block;
     width: 70%;
     text-overflow: ellipsis;
+}
+
+.levyDetail {
+    float: left;
+    width: 48%;
+    height: 100%;
+    margin: 0 1%;
+    background: #FFFFFF;
+}
+
+.pravyDetail {
+    float: left;
+    width: 50%;
+    height: 100%;
+    background: #FFFFFF;
+}
+
+.obsah {
+    display: inline-block;
+}
+
+.radekKosik {
+    width: 100%;
+}
+
+.obrazekKosik img {
+    width: 20%;
+}
+
+.jmenoPoložkaKosik {
+
 }
