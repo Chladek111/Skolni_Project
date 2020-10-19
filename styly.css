@@ -92,17 +92,26 @@ table {
 
 .levyDetail {
     float: left;
-    width: 48%;
-    height: 100%;
-    margin: 0 1%;
+    width: 40%;
+    height: 40%;
+    margin: 0 0%;
     background: #FFFFFF;
+}
+
+.levyDetail img
+{
+    float: left;
+    width: 70%;
+    height: 70%;
+    margin: 5% 15%;
 }
 
 .pravyDetail {
     float: left;
-    width: 50%;
-    height: 100%;
+    width: 48%;
+    height: 48%;
     background: #FFFFFF;
+    margin: 5% 5%;
 }
 
 .obsah {
@@ -134,22 +143,47 @@ table {
 }
 
 @media only screen and (max-width: 600px) {
-    .logo {
-        height: 15%;
-        width: 15%;
-        margin: 5% 5%;
-    }
-
-    .nadpisStranky {
-        height: 40%;
-        width: 40%;
-        margin: 3% -7%;
-    }
-
-    .kosik {
-        height: 10%;
-        width: 10%;
-        margin: 2% 2%;
-        float: right;
-    }
+.logo {
+    height: 15%;
+    width: 15%;
+    margin: 5% 5%;
 }
+
+.nadpisStranky {
+    height: 40%;
+    width: 40%;
+    margin: 3% -7%;
+}
+
+.kosik {
+    height: 10%;
+    width: 10%;
+    margin: 2% 2%;
+    float: right;
+}
+
+.levyDetail {
+    float: left;
+    width: 40%;
+    height: 40%;
+    margin: 0% 0%;
+    background: #FFFFFF;
+}
+
+.levyDetail img
+{
+    float: left;
+    width: 70%;
+    height: 70%;
+    margin: 40% 20%;
+}
+
+.pravyDetail {
+    float: left;
+    width: 50%;
+    height: 50%;
+    background: #FFFFFF;
+    margin: 5% 5%;
+}
+}
+
