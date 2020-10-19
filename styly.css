@@ -80,6 +80,56 @@ table {
     float: right;
 }
 
+.aktivni {
+    background: #579ff7;
+}
+
+.položka {
+    display: inline-block;
+    width: 70%;
+    text-overflow: ellipsis;
+}
+
+.levyDetail {
+    float: left;
+    width: 40%;
+    height: 40%;
+    margin: 0 0%;
+    background: #FFFFFF;
+}
+
+.levyDetail img
+{
+    float: left;
+    width: 70%;
+    height: 70%;
+    margin: 5% 15%;
+}
+
+.pravyDetail {
+    float: left;
+    width: 48%;
+    height: 48%;
+    background: #FFFFFF;
+    margin: 5% 5%;
+}
+
+.obsah {
+    display: inline-block;
+}
+
+.radekKosik {
+    width: 100%;
+}
+
+.obrazekKosik img {
+    width: 20%;
+}
+
+.jmenoPoložkaKosik {
+
+}
+
 @media only screen and (max-width: 600px) {
 .logo {
     height: 15%;
@@ -99,45 +149,29 @@ table {
     margin: 2% 2%;
     float: right;
 }
-}
-
-.aktivni {
-    background: #579ff7;
-}
-
-.položka {
-    display: inline-block;
-    width: 70%;
-    text-overflow: ellipsis;
-}
 
 .levyDetail {
     float: left;
-    width: 48%;
-    height: 100%;
-    margin: 0 1%;
+    width: 40%;
+    height: 40%;
+    margin: 0% 0%;
     background: #FFFFFF;
+}
+
+.levyDetail img
+{
+    float: left;
+    width: 70%;
+    height: 70%;
+    margin: 40% 20%;
 }
 
 .pravyDetail {
     float: left;
     width: 50%;
-    height: 100%;
+    height: 50%;
     background: #FFFFFF;
+    margin: 5% 5%;
+}
 }
 
-.obsah {
-    display: inline-block;
-}
-
-.radekKosik {
-    width: 100%;
-}
-
-.obrazekKosik img {
-    width: 20%;
-}
-
-.jmenoPoložkaKosik {
-
-}
