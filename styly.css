@@ -1,3 +1,71 @@
+@media only screen and (max-width: 600px) {
+
+    .logo {
+        height: 15%;
+        width: 15%;
+        margin: 5% 5%;
+    }
+
+    .nadpisStranky {
+        height: 40%;
+        width: 40%;
+        margin: 3% -7%;
+    }
+
+    .kosik {
+        height: 10%;
+        width: 10%;
+        margin: 2% 2%;
+        float: right;
+    }
+
+    .položka {
+        display: inline-block;
+        width: 70%;
+        max-height: 150px;
+        text-overflow: ellipsis;
+    }
+
+    .hidenForMobile {
+        display: none;
+    }
+
+    .levyDetail {
+        float: left;
+        width: 40%;
+        height: 40%;
+        margin: 0% 0%;
+        background: #FFFFFF;
+    }
+
+    .levyDetail img
+    {
+        float: left;
+        width: 70%;
+        height: 70%;
+        margin: 40% 20%;
+    }
+
+    .pravyDetail {
+        float: left;
+        width: 50%;
+        height: 50%;
+        background: #FFFFFF;
+        margin: 5% 5%;
+    }
+
+    .button {
+        width: 50px;
+        margin: 10px;
+        background: #007FFF;
+        border: 1px solid;
+        padding: .5em;
+        text-decoration: none;
+        border-radius: 5px;
+        text-align: center;
+    }
+}
+
 body {
     background: #87CEEB;
     margin: 2%;
@@ -88,6 +156,7 @@ table {
     display: inline-block;
     width: 70%;
     text-overflow: ellipsis;
+    overflow: hidden;
 }
 
 .levyDetail {
@@ -121,69 +190,43 @@ table {
 .radekKosik {
     width: 100%;
     display: inline-block;
+    margin: 10px 0%;
 }
 
 .obrazekKosik {
-    display: inherit;
+    float: left;
+    margin: 0 0 0 2% ;
+    width: 14%;
 }
 
 .obrazekKosik img {
-    margin: 0 0 0 2% ;
-    width: 18%;
+    max-width: 50%;
 }
 
 .jmenoPoložkaKosik {
-    width: 50%;
-    display: inherit;
+    float: left;
 }
 
 .cenaKosik {
-    width: 20%;
-    display: inherit;
-}
-
-@media only screen and (max-width: 600px) {
-.logo {
-    height: 15%;
-    width: 15%;
-    margin: 5% 5%;
-}
-
-.nadpisStranky {
-    height: 40%;
-    width: 40%;
-    margin: 3% -7%;
-}
-
-.kosik {
-    height: 10%;
-    width: 10%;
-    margin: 2% 2%;
     float: right;
 }
 
-.levyDetail {
-    float: left;
-    width: 40%;
-    height: 40%;
-    margin: 0% 0%;
-    background: #FFFFFF;
+.marginKosik {
+    margin: 3% 2%;
 }
 
-.levyDetail img
-{
-    float: left;
-    width: 70%;
-    height: 70%;
-    margin: 40% 20%;
+.button {
+    width: 20%;
+    margin: 10px;
+    background: #007FFF;
+    border: 1px solid;
+    padding: .5em;
+    text-decoration: none;
+    border-radius: 5px;
+    text-align: center;
 }
 
-.pravyDetail {
-    float: left;
-    width: 50%;
-    height: 50%;
-    background: #FFFFFF;
-    margin: 5% 5%;
-}
-}
+
+
+
 
