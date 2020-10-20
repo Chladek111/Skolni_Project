@@ -125,8 +125,17 @@ table {
     width: 100%;
     min-height: 50px;
     font-size: 130%;
+	font-family: "Arial Black", Gadget, sans-serif;
     vertical-align: middle;
     height: 20%;
+}
+
+h1{
+font-family: Arial, Helvetica, sans-serif;
+}
+
+h2{
+font-family: Arial, Helvetica, sans-serif;
 }
 
 .logo {
