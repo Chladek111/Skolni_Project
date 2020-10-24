@@ -92,16 +92,27 @@ font-family: Arial, Helvetica, sans-serif;
     margin: 2% 2%;
     float: right;
 }
+.article{
 
+
+}
 .aktivni {
     background: #579ff7;
 }
+.Zbozi{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    grid-gap: 10px;
+    background-color: #fff;
+    max-width: 960px;
+    margin: 0 auto 30px;
 
-.položka {
-    display: inline-block;
+
+}
+.article-obrazek {
+    height: 70%;
     width: 70%;
-    text-overflow: ellipsis;
-    overflow: hidden;
+    object-fit: cover;
 }
 
 .levyDetail {
