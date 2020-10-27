@@ -25,25 +25,29 @@ nav {
     min-width: 150px;
 }
 
-nav ul {
-    list-style-type: none;
-}
-
-nav ul li {
-    display: inline;
-    vertical-align: middle;
-    text-align: center;
-    margin: 0 5px;
-    line-height: 50px;
-}
-
-nav ul li:hover{
+nav a:hover{
     background:	#003785;
 }
 
 nav a {
     color: white;
     text-decoration: none;
+    padding: 10px 10px;
+    display: inline;
+    vertical-align: middle;
+    text-align: center;
+    line-height: 50px;
+}
+
+.menu {
+    background: #004F8E;
+    text-align: center;
+    width: 100%;
+    min-height: 50px;
+    font-size: 130%;
+    font-family: "Arial Black", Gadget, sans-serif;
+    vertical-align: middle;
+    height: 20%;
 }
 
 table {
@@ -53,17 +57,6 @@ table {
 
 .souhrn {
 text-align: center;
-}
-
-.kategorie {
-    background: #004F8E;
-    text-align: center;
-    width: 100%;
-    min-height: 50px;
-    font-size: 130%;
-	font-family: "Arial Black", Gadget, sans-serif;
-    vertical-align: middle;
-    height: 20%;
 }
 
 h1{
@@ -189,6 +182,12 @@ font-family: Arial, Helvetica, sans-serif;
 
 @media only screen and (max-width: 600px) {
 
+    .menu a {
+        float: none;
+        width: 100%;
+        display: block;
+        padding: 0;
+    }
     .logo {
         height: 15%;
         width: 15%;
