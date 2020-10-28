@@ -1,0 +1,1 @@
+Procesor 8 jádrový, 16 vláken, 3,9GHz (TDP 105W), Boost 4,7 GHz, 32MB L3 cache, Bez integrovaného grafického čipu, socket AMD AM4, Matisse, bez chladiče

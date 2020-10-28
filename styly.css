@@ -17,6 +17,10 @@ main article h1,h2 {
     text-align: center;
 }
 
+.center {
+    text-align: center;
+}
+
 nav {
     min-width: 150px;
 }
@@ -81,10 +85,7 @@ font-family: Arial, Helvetica, sans-serif;
     margin: 2% 2%;
     float: right;
 }
-.article{
 
-
-}
 .aktivni {
     background: #579ff7;
 }
@@ -92,25 +93,26 @@ font-family: Arial, Helvetica, sans-serif;
 .flex-container {
     display: flex;
     flex-wrap: wrap;
-    background-color: DodgerBlue;
+    background-color: #FFFFFF;;
     justify-content: center
 }
 
 .flex-container div {
     background-color: #f1f1f1;
     width: 30%;
-    margin: 10px;
+    margin: 1%;
     text-align: center;
 }
 
 .flex-container div img {
     width: 90%;
-    margin: 10px;
+    margin: 10% 0%;
 }
 
 .flex-container div .popiskyProduktu{
     display: inline-block;
     width:90%;
+    margin: 2%;
 }
 
 .levyDetail {
@@ -176,13 +178,15 @@ font-family: Arial, Helvetica, sans-serif;
 
 .button {
     width: 20%;
-    margin: 10px;
+    margin: 1% 2%;
     background: #007FFF;
     border: 1px solid;
     padding: .5em;
     text-decoration: none;
     border-radius: 5px;
     text-align: center;
+    font-family: "Arial Black", Gadget, sans-serif;
+    color: black;
 }
 
 @media only screen and (max-width: 600px) {
@@ -241,8 +245,8 @@ font-family: Arial, Helvetica, sans-serif;
     }
 
     .button {
-        width: 50px;
-        margin: 10px;
+        width: 20%;
+        margin: 2% 4%;
         background: #007FFF;
         border: 1px solid;
         padding: .5em;
