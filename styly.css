@@ -115,6 +115,20 @@ font-family: Arial, Helvetica, sans-serif;
     margin: 2%;
 }
 
+.flex-kosik-container {
+    display: flex;
+    flex-direction: column;
+    background-color: DodgerBlue;
+    justify-content: center
+}
+
+.flex-kosik-container .flex-container div {
+    background-color: #f1f1f1;
+    width: 30%;
+    margin: 10px 0px;
+    text-align: center;
+}
+
 .levyDetail {
     float: left;
     width: 40%;
@@ -147,33 +161,8 @@ font-family: Arial, Helvetica, sans-serif;
 	display: inline-block;
 }
 
-.radekKosik {
-    width: 100%;
-    display: inline-block;
-    margin: 10px 0%;
-}
-
-.obrazekKosik {
-    float: left;
-    margin: 0 0 0 2% ;
-    width: 20%;
-}
-
 .obrazekKosik img {
     max-width: 50%;
-	margin: 20%;
-}
-
-.jmenoPoložkaKosik {
-    float: left;
-}
-
-.cenaKosik {
-    float: right;
-}
-
-.marginKosik {
-    margin: 3% 2%;
 }
 
 .button {
@@ -254,14 +243,14 @@ font-family: Arial, Helvetica, sans-serif;
         border-radius: 5px;
         text-align: center;
     }
-	
-	.obrazekKosik {
+
+    .flex-container .obrazekKosik {
 		float: left;
 		margin: 0 0 0 2% ;
 		width: 40%;
 	}
 
-	.obrazekKosik img {
+    .flex-container .obrazekKosik img {
 		max-width: 50%;
 		width: 70%;
 		margin: 0% 10%;
