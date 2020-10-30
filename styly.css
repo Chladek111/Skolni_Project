@@ -1,6 +1,6 @@
 body {
     background: #87CEEB;
-    margin: 2%;
+    margin: 1%;
 }
 
 header {
@@ -11,6 +11,8 @@ header {
 main {
     background: #FFFFFF;
     height: 100%;
+	margin: 1% 0%;
+	width: 100%;
 }
 
 main article h1,h2 {
@@ -143,7 +145,7 @@ font-family: Arial, Helvetica, sans-serif;
 }
 
 .pravyDetail {
-    float: left;
+    float: right;
     width: 48%;
     height: 48%;
     background: #FFFFFF;
