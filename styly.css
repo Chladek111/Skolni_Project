@@ -11,7 +11,7 @@ header {
 main {
     background: #FFFFFF;
     height: 100%;
-	margin: 1% 0%;
+	margin: 1% 0;
 	width: 100%;
 }
 
@@ -101,7 +101,7 @@ font-family: Arial, Helvetica, sans-serif;
 
 .flex-container div {
     width: 30%;
-    margin: 1%;
+    margin: auto;
     text-align: center;
 }
 
@@ -128,28 +128,20 @@ font-family: Arial, Helvetica, sans-serif;
     text-align: center;
 }
 
-.levyDetail {
-    float: left;
-    width: 40%;
-    height: 40%;
-    margin: 0 0;
-    background: #FFFFFF;
+.pravyDetail tr:nth-child(even) {
+    background-color: #eee;
 }
 
-.levyDetail img
-{
-    float: left;
-    width: 70%;
-    height: 70%;
-    margin: 5% 15%;
+.pravyDetail tr:nth-child(odd) {
+    background-color: #fff;
 }
 
-.pravyDetail {
-    float: right;
-    width: 48%;
-    height: 48%;
-    background: #FFFFFF;
-    margin: 5% 5%;
+.pravyDetail th {
+    background-color: white;
+}
+
+.pravyDetail td {
+    width: 50%;
 }
 
 .obsahkosiku {
@@ -208,28 +200,8 @@ font-family: Arial, Helvetica, sans-serif;
         display: none;
     }
 
-    .levyDetail {
-        float: left;
-        width: 40%;
-        height: 40%;
-        margin: 0 0;
-        background: #FFFFFF;
-    }
-
-    .levyDetail img
-    {
-        float: left;
-        width: 70%;
-        height: 70%;
-        margin: 40% 15%;
-    }
-
-    .pravyDetail {
-        float: left;
-        width: 50%;
-        height: 50%;
-        background: #FFFFFF;
-        margin: 5% 5%;
+    .flex-container div {
+        width: 100%;
     }
 
     .button {
