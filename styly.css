@@ -64,6 +64,11 @@ th {
     background: #003785;
 
 }
+.kontakt {
+    display: inline-block;
+    text-align: left;
+
+}
 
 .souhrn {
 text-align: center;
