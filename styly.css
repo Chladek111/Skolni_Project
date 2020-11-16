@@ -57,6 +57,14 @@ table {
     text-align: center;
 }
 
+th {
+    text-align: left;
+    padding: 6px;
+    color: white;
+    background: #003785;
+
+}
+
 .souhrn {
 text-align: center;
 }
