@@ -1,11 +1,114 @@
+.aktivni {
+    background: #579ff7;
+}
+
 body {
     background: #87CEEB;
     margin: 1%;
 }
 
+.button {
+    width: 20%;
+    margin: 2% 4%;
+    background: #007FFF;
+    border: 1px solid;
+    padding: .5em;
+    text-decoration: none;
+    border-radius: 5px;
+    text-align: center;
+	font-family: "Arial Black", Gadget, sans-serif;
+	color: black;
+}
+
+.center {
+    text-align: center;
+}
+
+.flex-container div .hidenForMobile {
+    display: none;
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #FFFFFF;
+    justify-content: center;
+}
+
+.flex-container div {
+    width: 100%;
+	text-align: center;
+}
+
+.flex-container div img {
+    width: 90%;
+    margin: 10% 0;
+}
+
+.flex-container div .popiskyProduktu{
+    display: inline-block;
+    width:90%;
+    margin: 2%;
+	display: none;
+}
+
+.flex-container div .levyDetail{
+    display: inline-block;
+}
+
+.flex-kosik-container {
+    display: flex;
+    flex-direction: column;
+    background-color: #FFFFFF;
+}
+
+.flex-kosik-container .flex-container div {
+    width: 30%;
+    margin: 10px 0;
+    text-align: center;
+}
+
+.flex-container .obrazekKosik {
+	float: left;
+	margin: 0 0 0 2% ;
+	width: 40%;
+}
+
+.flex-container .obrazekKosik img {
+	max-width: 50%;
+	width: 70%;
+	margin: 0 10%;
+}
+
 header {
     background: #007FFF;
     width: 100%;
+}
+
+h1{
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+h2{
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.kontakt {
+    display: inline-block;
+    text-align: left;
+}
+
+.kosik {
+    height: 10%;
+    width: 10%;
+    margin: 2% 2%;
+    float: right;
+}
+
+.logo {
+    height: 15%;
+    width: 15%;
+    margin: 5% 5%;
 }
 
 main {
@@ -19,8 +122,22 @@ main article h1,h2 {
     text-align: center;
 }
 
-.center {
+.menu {
+    background: #004F8E;
     text-align: center;
+    width: 100%;
+    min-height: 50px;
+    font-size: 130%;
+    font-family: "Arial Black", Gadget, sans-serif;
+    vertical-align: middle;
+    height: 20%;
+}
+
+.menu a {
+    float: none;
+    width: 100%;
+    display: block;
+    padding: 0;
 }
 
 nav {
@@ -40,105 +157,23 @@ nav a {
     text-align: center;
     line-height: 50px;
 }
-
-.menu {
-    background: #004F8E;
-    text-align: center;
-    width: 100%;
-    min-height: 50px;
-    font-size: 130%;
-    font-family: "Arial Black", Gadget, sans-serif;
-    vertical-align: middle;
-    height: 20%;
+.nadpisStranky {
+    height: 40%;
+    width: 40%;
+    margin: 3% -7%;
 }
 
-table {
-    width: 100%;
-    text-align: center;
+
+.obsahkosiku {
+	text-align: center;
 }
 
-th {
-    text-align: left;
-    padding: 6px;
-    color: white;
-    background: #003785;
-
-}
-.kontakt {
-    display: inline-block;
-    text-align: left;
-
+.obsah {
+	display: inline-block;
 }
 
-.souhrn {
-text-align: center;
-}
-
-h1{
-font-family: Arial, Helvetica, sans-serif;
-}
-
-h2{
-font-family: Arial, Helvetica, sans-serif;
-}
-
-.logo {
-    height: 7%;
-    width: 7%;
-    margin: 4% 5%;
-}
-
-.nadpisStranky{
-    height: 25%;
-    width: 25%;
-    margin: 1% -7%;
-}
-
-.kosik {
-    height: 5%;
-    width: 5%;
-    margin: 2% 2%;
-    float: right;
-}
-
-.aktivni {
-    background: #579ff7;
-}
-
-.flex-container {
-    display: flex;
-    flex-wrap: wrap;
-    background-color: #FFFFFF;
-    justify-content: center;
-}
-
-.flex-container div {
-    width: 30%;
-    margin: auto;
-    text-align: center;
-}
-
-.flex-container div img {
-    width: 90%;
-    margin: 10% 0;
-}
-
-.flex-container div .popiskyProduktu{
-    display: inline-block;
-    width:90%;
-    margin: 2%;
-}
-
-.flex-kosik-container {
-    display: flex;
-    flex-direction: column;
-    background-color: #FFFFFF;
-}
-
-.flex-kosik-container .flex-container div {
-    width: 30%;
-    margin: 10px 0;
-    text-align: center;
+.obrazekKosik img {
+    max-width: 50%;
 }
 
 .pravyDetail tr:nth-child(even) {
@@ -157,17 +192,24 @@ font-family: Arial, Helvetica, sans-serif;
     width: 50%;
 }
 
-.obsahkosiku {
+.souhrn {
 	text-align: center;
 }
 
-.obsah {
-	display: inline-block;
+table {
+    width: 100%;
+    text-align: center;
 }
 
-.obrazekKosik img {
-    max-width: 50%;
+th {
+    text-align: left;
+    padding: 6px;
+    color: white;
+    background: #003785;
+
 }
+
+@media only screen and (min-width: 600px) {
 
 .button {
     width: 20%;
@@ -182,63 +224,61 @@ font-family: Arial, Helvetica, sans-serif;
     color: black;
 }
 
-@media only screen and (max-width: 600px) {
+.kosik {
+    height: 5%;
+    width: 5%;
+    margin: 2% 2%;
+    float: right;
+}
 
-    .menu a {
-        float: none;
-        width: 100%;
-        display: block;
-        padding: 0;
-    }
-    .logo {
-        height: 15%;
-        width: 15%;
-        margin: 5% 5%;
-    }
+.logo {
+    height: 7%;
+    width: 7%;
+    margin: 4% 5%;
+}
 
-    .nadpisStranky {
-        height: 40%;
-        width: 40%;
-        margin: 3% -7%;
-    }
+.menu a {
+    float: none;
+    width: 100%;
+    display: inline;
+    padding: 10px 10px;
+}
 
-    .kosik {
-        height: 10%;
-        width: 10%;
-        margin: 2% 2%;
-        float: right;
-    }
+.nadpisStranky{
+    height: 25%;
+    width: 25%;
+    margin: 1% -7%;
+}
 
-    .flex-container div .hidenForMobile {
-        display: none;
-    }
+nav {
+    min-width: 150px;
+}
 
-    .flex-container div {
-        width: 100%;
-    }
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 10px;
+    display: inline;
+    vertical-align: middle;
+    text-align: center;
+    line-height: 50px;
+}
 
-    .button {
-        width: 20%;
-        margin: 2% 4%;
-        background: #007FFF;
-        border: 1px solid;
-        padding: .5em;
-        text-decoration: none;
-        border-radius: 5px;
-        text-align: center;
-    }
+.flex-container div .hidenForMobile {
+    display: block;
+}
 
-    .flex-container .obrazekKosik {
-		float: left;
-		margin: 0 0 0 2% ;
-		width: 40%;
-	}
+.flex-container div {
+    width: 30%;
+    margin: auto;
+    text-align: center;
+}
 
-    .flex-container .obrazekKosik img {
-		max-width: 50%;
-		width: 70%;
-		margin: 0 10%;
-	}
+.flex-container div .popiskyProduktu{
+    display: inline-block;
+    width:90%;
+    margin: 2%;
+}
 }
 
 
