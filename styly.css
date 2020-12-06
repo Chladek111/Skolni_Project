@@ -157,6 +157,7 @@ nav a {
     text-align: center;
     line-height: 50px;
 }
+
 .nadpisStranky {
     height: 40%;
     width: 40%;
@@ -209,6 +210,50 @@ th {
 
 }
 
+.drob_navigace {
+	font-family: Arial, Helvetica, sans-serif;
+	text-align: center;
+	font-weight: bold;
+	font-size: large;
+	width: 100%;
+}
+
+.flex-container div .drob_navigace {
+	font-family: Arial, Helvetica, sans-serif;
+	text-align: center;
+	font-weight: bold;
+	font-size: large;
+	width: 100%;
+}
+
+.drob_navigace a {
+	font-family: Arial, Helvetica, sans-serif;
+	text-align: center;
+	font-weight: bold;
+	font-size: large;
+	color: black;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+
+a:visited {
+  text-decoration: none;
+}
+
+
+a:hover {
+  text-decoration: none;
+}
+
+
+a:active {
+  text-decoration: none;
+} 
+
+
 @media only screen and (min-width: 600px) {
 
 .button {
@@ -229,6 +274,10 @@ th {
     width: 5%;
     margin: 2% 2%;
     float: right;
+}
+
+.obrazekKosik img {
+    max-width: 25%;
 }
 
 .logo {
