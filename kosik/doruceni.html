@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="author" content="Jakub Chládek" />
+        <meta name="author" content="Jiří Kotlán" />
+        <meta name="author" content="Martin Šima" />
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="shortcut icon" href="../obrazky/ikona.ico" />
+        <link rel="stylesheet" href="../styly.css" type="text/css" />
+        <title>EleShop</title>
+    </head>
+    <body>
+        <header>
+            <div>
+                <img class="logo" src="../obrazky/logo.png" alt="Logo">
+                <img class="nadpisStranky" src="../obrazky/eleshop.png" alt="EleShop">
+                <a href="kosik.html">
+                    <img class="kosik" src="../obrazky/kosik_in.png" alt="Košík">
+                </a>
+            </div>
+        </header>
+        <nav class="menu">
+            <a href="../index.html">Home</a>
+            <a href="../kategorie_cpu.html">CPU</a>
+            <a href="../kategorie_disky.html">Disky</a>
+        </nav>
+        <main>
+				<br>
+				<div class="flex-container">
+                <div class="drob_navigace"><a href="kosik.html">Košík</a> > <a href="doruceni.html" style="color: #004f8e">Doručení</a><label style="opacity: 0.30"> > Souhrn objednávky</label></div>
+				</div>
+				<br>
+				<h1 style="text-align: center">Doručení</h1>
+                <div class="flex-container">
+                    <div style="float:left;text-align: left;margin: 2% 15%;">    
+						<h2 style="text-align: left">Kontaktní údaje:</h2>
+                        <b>Jméno</b>
+                        <input type="text" size="10" value="Pavel" style="margin: 2px"><br>
+
+                        <b>Příjmení</b>
+                            <input type="text" size="15" value="Novotný" style="margin: 2px"><br>
+
+                        <b>E-mail</b>
+                            <input type="text" size="30" value="pavel.novotny@seznam.cz" style="margin: 2px"><br>
+
+                        <b>Telefon</b>
+                            <input type="text" size="9" value="777666555" style="margin: 2px"><br>
+							
+                        <b>Město</b>
+                            <input type="text" size="15" value="Praha" style="margin: 2px">	<br>	
+						<b>Ulice a čísto domu</b>
+                            <input type="text" size="15" value="Na příkopě 20" style="margin: 2px">	<br>		
+						<b>PSČ</b>
+                            <input type="text" size="5" value="11000" style="margin: 2px"> <br>
+					</div>
+					<div style="float:right;margin: 2% 5%;">
+						
+						<h2>Způsob doručení:</h2>
+						<input type="radio" id="doruceni" name="doprava" value="doruceni">
+						<label for="doruceni">Doručení kurýrem</label><br>
+						<input type="radio" id="osobne" name="doprava" value="osobne">
+						<label for="osobne">Osobní vyzvednutí</label><br>
+						<br>
+						<h2>Způsob platby:</h2>
+						<input type="radio" id="kartaonline" name="platba" value="kartaonline">
+						<label for="kartaonline">Kartou předem</label><br>
+						<input type="radio" id="hotove" name="platba" value="hotove">
+						<label for="hotove">Hotově</label><br>
+                    </div>
+				</div>
+				<br>
+				<div class="flex-container">
+                <a href="kosik.html" class="button" style="float: left;background: #95b2cf">Zpět</a>
+                <a href="souhrn.html" class="button" style="float: right">Pokračovat</a>
+                </div>
+				</div>
+        </main>
+    </body>
+</html>
