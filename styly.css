@@ -187,10 +187,11 @@ nav a {
 
 .pravyDetail th {
     background-color: white;
+	color: black;
 }
 
 .pravyDetail td {
-    width: 50%;
+    width: 50%;	
 }
 
 .souhrn {
@@ -207,7 +208,6 @@ th {
     padding: 6px;
     color: white;
     background: #003785;
-
 }
 
 .drob_navigace {
