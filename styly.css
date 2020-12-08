@@ -1,3 +1,21 @@
+a:link {
+  color: black;
+  text-decoration: none;
+}
+
+
+a:visited {
+  color: black;
+  text-decoration: none;
+}
+
+
+a:hover {
+  color: black;
+  text-decoration: none;
+}
+
+
 .aktivni {
     background: #579ff7;
 }
@@ -18,6 +36,27 @@ body {
     text-align: center;
 	font-family: "Arial Black", Gadget, sans-serif;
 	color: black;
+}
+
+.cena {
+	font-weight: bold;
+	color: red;
+	font-size: large;
+	font-family: "Arial Black", Gadget, sans-serif;
+}
+
+.cenakosik {
+	font-weight: bold;
+	color: red;
+	font-size: small;
+	font-family: "Arial Black", Gadget, sans-serif;
+}
+
+.producttitle {
+	font-weight: bold;
+	color: black;
+	font-size: large;
+	font-family: "Arial Black", Gadget, sans-serif;
 }
 
 .center {
@@ -50,6 +89,7 @@ body {
     width:90%;
     margin: 2%;
 	display: none;
+	font-family: "Arial", Gadget, sans-serif;
 }
 
 .flex-container div .levyDetail{
@@ -86,7 +126,7 @@ header {
 }
 
 h1{
-	font-family: Arial, Helvetica, sans-serif;
+	font-family: "Arial Black", Gadget, sans-serif;
 }
 
 h2{
@@ -138,6 +178,7 @@ main article h1,h2 {
     width: 100%;
     display: block;
     padding: 0;
+	color: white;
 }
 
 nav {
@@ -199,8 +240,10 @@ nav a {
 }
 
 table {
+	font-family: Arial, Helvetica, sans-serif;
     width: 100%;
     text-align: center;
+	
 }
 
 th {
@@ -234,24 +277,6 @@ th {
 	color: black;
 }
 
-a:link {
-  text-decoration: none;
-}
-
-
-a:visited {
-  text-decoration: none;
-}
-
-
-a:hover {
-  text-decoration: none;
-}
-
-
-a:active {
-  text-decoration: none;
-} 
 
 
 @media only screen and (min-width: 600px) {
@@ -327,6 +352,20 @@ nav a {
     display: inline-block;
     width:90%;
     margin: 2%;
+}
+
+.producttitle {
+	font-weight: bold;
+	color: black;
+	font-size: x-large;
+	font-family: "Arial Black", Gadget, sans-serif;
+}
+
+.cenakosik {
+	font-weight: bold;
+	color: red;
+	font-size: large;
+	font-family: "Arial Black", Gadget, sans-serif;
 }
 }
 
