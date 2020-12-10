@@ -17,18 +17,18 @@ a:hover {
 
 
 .aktivni {
-    background: #579ff7;
+    background: #1667c9;
 }
 
 body {
-    background: #87CEEB;
+    background: #cae2ed;
     margin: 1%;
 }
 
 .button {
     width: 30%;
     margin: 2% 2%;
-    background: #007FFF;
+    background: #4ea5fc;
     border: 1px solid;
     padding: .5em;
     text-decoration: none;
@@ -45,11 +45,42 @@ body {
 	font-family: "Arial Black", Gadget, sans-serif;
 }
 
+.celkemtext {
+	color: black;
+	font-size: x-large;
+	font-family: "Arial Black", Gadget, sans-serif;
+}
+
+label {
+font-family: "Arial", Gadget, sans-serif;
+}
+
+.celkemnum {
+	color: red;
+	font-size: x-large;
+	font-family: "Arial Black", Gadget, sans-serif;
+}
+
+.flex-container-doruceni {
+    width: 100%;
+    margin: auto;
+    text-align: center;
+}
+
+.divdoruceni {
+	text-align: left;
+	display: inline-block
+}
+
 .cenakosik {
 	font-weight: bold;
 	color: red;
 	font-size: small;
 	font-family: "Arial Black", Gadget, sans-serif;
+}
+
+.kosikinput {
+	width: 50%;
 }
 
 .producttitle {
@@ -121,7 +152,7 @@ body {
 }
 
 header {
-    background: #007FFF;
+    background: #4ea5fc;
     width: 100%;
 }
 
@@ -284,7 +315,7 @@ th {
 .button {
     width: 20%;
     margin: 1% 2%;
-    background: #007FFF;
+    background: #4ea5fc;
     border: 1px solid;
     padding: .5em;
     text-decoration: none;
@@ -348,6 +379,17 @@ nav a {
     text-align: center;
 }
 
+.flex-container-doruceni {
+    width: 100%;
+    margin: auto;
+    text-align: center;
+}
+
+.divdoruceni {
+	text-align: left;
+	display: inline-block
+}
+
 .flex-container div .popiskyProduktu{
     display: inline-block;
     width:90%;
@@ -366,6 +408,10 @@ nav a {
 	color: red;
 	font-size: large;
 	font-family: "Arial Black", Gadget, sans-serif;
+}
+
+.kosikinput {
+	width: 20%;
 }
 }
 

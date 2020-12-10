@@ -15,15 +15,14 @@
             <div>
                 <img class="logo" src="../obrazky/logo.png" alt="Logo">
                 <img class="nadpisStranky" src="../obrazky/eleshop.png" alt="EleShop">
-                <a href="kosik.html">
-                    <img class="kosik" src="../obrazky/kosik_in.png" alt="Košík">
-                </a>
+                <a href="kosik.html"><img class="kosik" src="../obrazky/kosik_in.png" alt="Košík"></a>
             </div>
         </header>
         <nav class="menu">
 			<a href="../index.html">Home</a>
 			<a href="../kategorie_gpu.html">GPU</a>
             <a href="../kategorie_cpu.html">CPU</a>
+			<a href="../kategorie_ram.html">RAM</a>
             <a href="../kategorie_disky.html">Disky</a>
         </nav>
         <main>
@@ -33,48 +32,45 @@
 				</div>
 				<br>
 				<h1 style="text-align: center">Doručení</h1>
-                <div class="flex-container">
-                    <div style="float:left;text-align: left;margin: 2% 15%;">    
-						<h2 style="text-align: left">Kontaktní údaje:</h2>
-                        <label for="jmeno"><b>Jméno</b></label>
-                        <input type="text" size="10" value="Pavel" style="margin: 2px" id="jmeno"><br>
-
-                        <label for="prijmeni"><b>Příjmení</b></label>
-                            <input type="text" size="15" value="Novotný" style="margin: 2px" id="prijmeni"><br>
-
-                        <label for="email"><b>E-mail</b></label>
-                            <input type="text" size="30" value="pavel.novotny@seznam.cz" style="margin: 2px" id="email"><br>
-
-                        <label for="telefon"><b>Telefon</b></label>
-                            <input type="text" size="9" value="777666555" style="margin: 2px" id="telefon"><br>
-							
-                        <label for="mesto"><b>Město</b></label>
-                            <input type="text" size="15" value="Praha" style="margin: 2px" id="mesto"><br>	
-						<label for="ulice"><b>Ulice a čísto domu</b></label>
-                            <input type="text" size="15" value="Na příkopě 20" style="margin: 2px" id="ulice"><br>		
-						<label for="psc"><b>PSČ</b></label>
-                            <input type="text" size="5" value="11000" style="margin: 2px" id="psc"> <br>
-					</div>
-					<div style="float:right;margin: 2% 5%;">
-						
-						<h2>Způsob doručení:</h2>
-						<input type="radio" id="doruceni" name="doprava" value="doruceni">
-						<label for="doruceni">Doručení kurýrem</label><br>
-						<input type="radio" id="osobne" name="doprava" value="osobne">
-						<label for="osobne">Osobní vyzvednutí</label><br>
+				<br>
+                <div class="flex-container-doruceni"> 
+				<h2>📋 Kontaktní údaje</h2>
+					<div class="divdoruceni">
+                        <label for="jmeno"><b>Jméno</b></label> <input type="text" size="29" value="Pavel" style="margin: 2px" id="jmeno"><br>
+                        <label for="prijmeni"><b>Příjmení</b></label> <input type="text" size="27" value="Novotný" style="margin: 2px" id="prijmeni"><br>
+                        <label for="email"><b>E-mail</b></label> <input type="text" size="29" value="pavel.novotny@seznam.cz" style="margin: 2px" id="email"><br>
+                        <label for="telefon"><b>Telefon</b></label> <input type="text" size="28" value="777666555" style="margin: 2px" id="telefon"><br>
 						<br>
-						<h2>Způsob platby:</h2>
-						<input type="radio" id="kartaonline" name="platba" value="kartaonline">
-						<label for="kartaonline">Kartou předem</label><br>
-						<input type="radio" id="hotove" name="platba" value="hotove">
-						<label for="hotove">Hotově</label><br>
+                        <label for="mesto"><b>Město</b></label> <input type="text" size="30" value="Praha" style="margin: 2px" id="mesto"><br>	
+						<label for="ulice"><b>Ulice</b></label> <input type="text" size="31" value="Na příkopě" style="margin: 2px" id="ulice"><br>
+						<label for="cdomu"><b>Číslo domu</b></label> <input type="text" size="23" value="20" style="margin: 2px" id="cdomu"><br>	
+						<label for="psc"><b>PSČ</b></label> <input type="text" size="32" value="11000" style="margin: 2px" id="psc"> <br>
+					</div>
+					<br><br>
+					<h2>🚚 Způsob doručení</h2>
+					<div class="divdoruceni">
+						<input type="radio" id="osobne" name="doprava"> <label for="osobne">Osobní vyzvednutí</label><br>
+						<input type="radio" id="dorucenizas" name="doprava"> <label for="dorucenizas">Doručení Zásilkovna</label><br>
+						<input type="radio" id="dorucenippl" name="doprava"> <label for="dorucenippl">Doručení PPL</label><br>
+						<input type="radio" id="dorucenicp" name="doprava"> <label for="dorucenicp">Doručení Česká Pošta</label><br>
+					</div>
+					<br><br>
+					<h2>💳 Způsob platby</h2>
+					<div class="divdoruceni">
+						<input type="radio" id="kartaonline" name="platba">
+						<label for="kartaonline">Platební kartou předem</label><br>
+						<input type="radio" id="prevodonline" name="platba">
+						<label for="prevodonline">Bankovním převodem předem</label><br>
+						<input type="radio" id="hotove" name="platba">
+						<label for="hotove">Kartou/hotově při vyzvednutí</label><br>
                     </div>
 				</div>
-				<br>
+				<br><br>
 				<div class="flex-container">
                 <a href="kosik.html" class="button" style="float: left;background: #95b2cf">Zpět</a>
                 <a href="souhrn.html" class="button" style="float: right">Pokračovat</a>
                 </div>
+			<br><br>
         </main>
     </body>
 </html>

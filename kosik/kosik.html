@@ -15,15 +15,14 @@
             <div>
                 <img class="logo" src="../obrazky/logo.png" alt="Logo">
                 <img class="nadpisStranky" src="../obrazky/eleshop.png" alt="EleShop">
-                <a href="kosik.html">
-                    <img class="kosik" src="../obrazky/kosik_in.png" alt="Košík">
-                </a>
+                <a href="kosik.html"><img class="kosik" src="../obrazky/kosik_in.png" alt="Košík"></a>
             </div>
         </header>
         <nav class="menu">
 			<a href="../index.html">Home</a>
 			<a href="../kategorie_gpu.html">GPU</a>
             <a href="../kategorie_cpu.html">CPU</a>
+			<a href="../kategorie_ram.html">RAM</a>
             <a href="../kategorie_disky.html">Disky</a>
         </nav>
         <main>
@@ -39,24 +38,51 @@
                             <th>Počet kusů</th>
                             <th>Celkem</th>
                         </tr>
+						<tr>
+                            <td>
+							<br>
+								<a href="../detail/detail_gpu.html">
+								<b>NVIDIA GeForce RTX - 2070</b>
+                                <div class="obrazekKosik">
+                                    <img src="../obrazky/gpu/rtx2070.png" alt="NVIDIA GeForce RTX - 2070">
+                                </div>
+								</a>
+                            </td>
+                            <td><input type="number" class="kosikinput" value="1" id="pocetkusu"><label for="pocetkusu"> ks.</label></td>
+                            <td><label class="cenakosik">13 172 ,-</label></td>
+                        </tr>
+						<tr>
+                            <td>
+							<br>
+								<a href="../detail/detail_ram.html">
+								<b>HyperX Predator RGB 4x16GB DDR4 3200</b>
+                                <div class="obrazekKosik">
+                                    <img src="../obrazky/ram/hyperx-predator-rgb-4x16-3200.png" alt="HyperX Predator RGB 4x16GB DDR4 3200">
+                                </div>
+								</a>
+                            </td>
+                            <td><input type="number" class="kosikinput" value="1" id="pocetkusu"><label for="pocetkusu"> ks.</label></td>
+                            <td><label class="cenakosik">8 038 ,-</label></td>
+                        </tr>
                         <tr>
                             <td>
 							<br>
-								<b>AMD Ryzen 5 3600x</b>
+								<a href="../detail/detail_cpu.html">
+								<b>AMD Ryzen 5-3600X</b>
                                 <div class="obrazekKosik">
                                     <img src="../obrazky/cpu/ryzen5%203600x.png" alt="Ryzen 5 3600x">
                                 </div>
+								</a>
                             </td>
-
-                            <td><input type="number" value="3" id="pocetkusu"><label for="pocetkusu"> ks.</label></td>
-
-                            <td><label class="cenakosik">10 800 ,-</label></td>
+                            <td><input type="number" class="kosikinput" value="1" id="pocetkusu"><label for="pocetkusu"> ks.</label></td>
+                            <td><label class="cenakosik">6 390 ,-</label></td>
                         </tr>
-
                     </table>
+					<br>
 				<div class="flex-container">
                 <a href="doruceni.html" class="button">Pokračovat</a>
                 </div>
+			<br><br>
         </main>
     </body>
 </html>
