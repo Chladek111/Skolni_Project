@@ -151,6 +151,22 @@ font-family: "Arial", Gadget, sans-serif;
 	margin: 0 10%;
 }
 
+.flex-container-uvod {
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-container-uvod-side {
+    flex: 20%;
+    padding: 20px;
+}
+
+.flex-container-uvod-main {
+    flex: 80%;
+    background-color: white;
+    padding: 20px;
+}
+
 header {
     background: #4ea5fc;
     width: 100%;
@@ -394,6 +410,10 @@ nav a {
     display: inline-block;
     width:90%;
     margin: 2%;
+}
+
+.flex-container-uvod {
+    flex-direction: row;
 }
 
 .producttitle {
